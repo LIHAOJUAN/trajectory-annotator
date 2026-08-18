@@ -28,7 +28,14 @@ cd trajectory-annotator
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements.txt
-PORT=18080 python3 run.py
+#A组
+ANNOTATOR_SAMPLE_FILE=assignments/A.jsonl \
+  PORT=18080 \
+  python3 run.py
+#B组
+ANNOTATOR_SAMPLE_FILE=assignments/B.jsonl \
+  PORT=18080 \
+  python3 run.py
 ```
 
 浏览器打开：
