@@ -1,0 +1,31 @@
+{
+  "feedback_events": 1931,
+  "revision_episodes": 959,
+  "feedback_status": {
+    "protocol_failure": 897,
+    "accept": 940,
+    "continue": 62,
+    "reject": 9,
+    "unknown": 22,
+    "blocked": 1
+  },
+  "automatic_labels": {
+    "Protocol-driven Revision": 897,
+    "Futile Revision": 19,
+    "No-op Revision": 35,
+    "Looping Revision": 5,
+    "Productive Revision": 2,
+    "Destructive Revision Candidate": 1
+  },
+  "by_model": {
+    "claude": 924,
+    "gpt": 35
+  },
+  "manual_review_required": 25,
+  "checkpoint_replay_candidates": 1,
+  "notes": [
+    "Automatic labels are high-precision triage labels, not final causal verdicts.",
+    "Destructive revision requires checkpoint replay for confirmation.",
+    "GPT revision state changes are unavailable; many GPT episodes remain unverified."
+  ]
+}

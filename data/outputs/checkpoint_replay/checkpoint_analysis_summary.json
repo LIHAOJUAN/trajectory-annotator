@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-07T14:17:09.055404+00:00",
+  "result_count": 333,
+  "instance_count": 36,
+  "complete_instance_count": 36,
+  "resolved_checkpoint_count": 44,
+  "instances_with_any_resolved_checkpoint": 13,
+  "best_checkpoint_regret_instances": 0,
+  "oracle_early_stop_gain": 0,
+  "source_replay_outcome_mismatch_count": 1,
+  "source_replay_outcome_mismatch_instances": [
+    "sphinx-doc__sphinx-10435"
+  ],
+  "transition_count": 267,
+  "transition_labels": {
+    "Outcome-neutral Revision": 200,
+    "Partial Regression": 19,
+    "Partial Improvement": 35,
+    "Productive Revision": 13
+  },
+  "replay_groups": {
+    "high_churn_unresolved": {
+      "instance_count": 24,
+      "transition_count": 176,
+      "transition_labels": {
+        "Outcome-neutral Revision": 137,
+        "Partial Improvement": 26,
+        "Partial Regression": 12,
+        "Productive Revision": 1
+      },
+      "instances_with_any_resolved_checkpoint": 1,
+      "best_nonfinal_instance_count": 24
+    },
+    "matched_resolved_control": {
+      "instance_count": 12,
+      "transition_count": 91,
+      "transition_labels": {
+        "Outcome-neutral Revision": 63,
+        "Partial Regression": 7,
+        "Partial Improvement": 9,
+        "Productive Revision": 12
+      },
+      "instances_with_any_resolved_checkpoint": 12,
+      "best_nonfinal_instance_count": 7
+    }
+  }
+}

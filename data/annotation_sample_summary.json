@@ -1,0 +1,22 @@
+{
+  "total": 100,
+  "by_stratum": {
+    "claude_high_churn_unresolved": 20,
+    "claude_false_accept": 15,
+    "claude_false_reject": 15,
+    "claude_concise_success": 10,
+    "gpt_provenance_suspect": 15,
+    "gpt_valid_unresolved": 10,
+    "complex_fill": 15
+  },
+  "by_model": {
+    "claude": 75,
+    "gpt": 25
+  },
+  "resolved": {
+    "claude:unresolved": 35,
+    "claude:resolved": 40,
+    "gpt:unresolved": 21,
+    "gpt:resolved": 4
+  }
+}

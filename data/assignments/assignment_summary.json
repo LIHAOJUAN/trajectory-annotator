@@ -1,0 +1,68 @@
+{
+  "A": {
+    "count": 50,
+    "model": {
+      "claude": 37,
+      "gpt": 13
+    },
+    "outcome": {
+      "unresolved": 28,
+      "resolved": 22
+    },
+    "stratum": {
+      "claude_high_churn_unresolved": 10,
+      "claude_false_accept": 7,
+      "claude_false_reject": 8,
+      "claude_concise_success": 5,
+      "gpt_provenance_suspect": 8,
+      "gpt_valid_unresolved": 5,
+      "complex_fill": 7
+    },
+    "integrity": {
+      "valid": 42,
+      "suspect": 8
+    },
+    "false_accept": {
+      "False": 27,
+      "True": 23
+    },
+    "false_reject": {
+      "False": 35,
+      "True": 15
+    },
+    "has_replay": 16
+  },
+  "B": {
+    "count": 50,
+    "model": {
+      "claude": 38,
+      "gpt": 12
+    },
+    "outcome": {
+      "unresolved": 28,
+      "resolved": 22
+    },
+    "stratum": {
+      "claude_high_churn_unresolved": 10,
+      "claude_false_accept": 8,
+      "claude_false_reject": 7,
+      "claude_concise_success": 5,
+      "gpt_provenance_suspect": 7,
+      "gpt_valid_unresolved": 5,
+      "complex_fill": 8
+    },
+    "integrity": {
+      "valid": 43,
+      "suspect": 7
+    },
+    "false_accept": {
+      "False": 28,
+      "True": 22
+    },
+    "false_reject": {
+      "False": 34,
+      "True": 16
+    },
+    "has_replay": 15
+  }
+}

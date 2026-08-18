@@ -1,0 +1,51 @@
+annotation_id,instance_id,model_label,task_outcome,sampling_stratum,integrity_status,false_accept,false_reject,difficulty,has_replay
+annotation-001,django__django-15629,claude,unresolved,claude_high_churn_unresolved,valid,False,False,1-4 hours,True
+annotation-002,matplotlib__matplotlib-22871,claude,unresolved,claude_high_churn_unresolved,valid,True,False,15 min - 1 hour,True
+annotation-003,django__django-11532,claude,unresolved,claude_high_churn_unresolved,valid,True,False,15 min - 1 hour,True
+annotation-006,django__django-15280,claude,unresolved,claude_high_churn_unresolved,valid,False,False,15 min - 1 hour,True
+annotation-007,pydata__xarray-6938,claude,unresolved,claude_high_churn_unresolved,valid,False,False,15 min - 1 hour,True
+annotation-008,matplotlib__matplotlib-26208,claude,unresolved,claude_high_churn_unresolved,valid,True,False,<15 min fix,True
+annotation-011,sphinx-doc__sphinx-7748,claude,unresolved,claude_high_churn_unresolved,valid,True,False,15 min - 1 hour,False
+annotation-012,sympy__sympy-14248,claude,unresolved,claude_high_churn_unresolved,valid,False,False,1-4 hours,True
+annotation-013,django__django-11265,claude,unresolved,claude_high_churn_unresolved,valid,True,False,15 min - 1 hour,False
+annotation-014,django__django-15252,claude,unresolved,claude_high_churn_unresolved,valid,False,False,15 min - 1 hour,True
+annotation-021,matplotlib__matplotlib-20826,claude,unresolved,claude_false_accept,valid,True,False,15 min - 1 hour,False
+annotation-023,django__django-16877,claude,unresolved,claude_false_accept,valid,True,False,15 min - 1 hour,False
+annotation-024,sphinx-doc__sphinx-7985,claude,unresolved,claude_false_accept,valid,True,False,15 min - 1 hour,False
+annotation-025,sympy__sympy-15017,claude,unresolved,claude_false_accept,valid,True,False,<15 min fix,False
+annotation-030,django__django-16256,claude,unresolved,claude_false_accept,valid,True,False,15 min - 1 hour,False
+annotation-031,psf__requests-2317,claude,unresolved,claude_false_accept,valid,True,False,<15 min fix,False
+annotation-035,sympy__sympy-12489,claude,unresolved,claude_false_accept,valid,True,False,1-4 hours,False
+annotation-036,sympy__sympy-13878,claude,resolved,claude_false_reject,valid,False,True,>4 hours,True
+annotation-039,django__django-15128,claude,resolved,claude_false_reject,valid,False,True,1-4 hours,False
+annotation-042,django__django-14351,claude,resolved,claude_false_reject,valid,False,True,15 min - 1 hour,False
+annotation-043,matplotlib__matplotlib-22865,claude,resolved,claude_false_reject,valid,False,True,15 min - 1 hour,False
+annotation-044,django__django-11138,claude,resolved,claude_false_reject,valid,False,True,1-4 hours,True
+annotation-045,django__django-11066,claude,resolved,claude_false_reject,valid,False,True,<15 min fix,False
+annotation-046,django__django-15503,claude,resolved,claude_false_reject,valid,False,True,1-4 hours,False
+annotation-050,sympy__sympy-19040,claude,resolved,claude_false_reject,valid,False,True,15 min - 1 hour,False
+annotation-054,django__django-12276,claude,resolved,claude_concise_success,valid,False,True,<15 min fix,False
+annotation-056,django__django-12304,claude,resolved,claude_concise_success,valid,False,True,<15 min fix,False
+annotation-058,django__django-13279,claude,resolved,claude_concise_success,valid,False,True,15 min - 1 hour,False
+annotation-059,django__django-15572,claude,resolved,claude_concise_success,valid,False,True,<15 min fix,False
+annotation-060,sympy__sympy-24066,claude,resolved,claude_concise_success,valid,False,True,15 min - 1 hour,False
+annotation-063,django__django-15629,gpt,unresolved,gpt_provenance_suspect,suspect,True,False,1-4 hours,True
+annotation-065,django__django-16502,gpt,unresolved,gpt_provenance_suspect,suspect,True,False,15 min - 1 hour,False
+annotation-066,django__django-16950,gpt,unresolved,gpt_provenance_suspect,suspect,True,False,15 min - 1 hour,False
+annotation-067,matplotlib__matplotlib-20826,gpt,unresolved,gpt_provenance_suspect,suspect,True,False,15 min - 1 hour,False
+annotation-069,matplotlib__matplotlib-23299,gpt,unresolved,gpt_provenance_suspect,suspect,True,False,15 min - 1 hour,True
+annotation-070,pylint-dev__pylint-4970,gpt,unresolved,gpt_provenance_suspect,suspect,True,False,<15 min fix,False
+annotation-073,django__django-13028,gpt,resolved,gpt_provenance_suspect,suspect,False,False,15 min - 1 hour,False
+annotation-075,django__django-13449,gpt,resolved,gpt_provenance_suspect,suspect,False,False,1-4 hours,False
+annotation-077,astropy__astropy-13977,gpt,unresolved,gpt_valid_unresolved,valid,True,False,15 min - 1 hour,False
+annotation-079,astropy__astropy-14369,gpt,unresolved,gpt_valid_unresolved,valid,True,False,1-4 hours,False
+annotation-083,django__django-10554,gpt,unresolved,gpt_valid_unresolved,valid,True,False,1-4 hours,False
+annotation-084,django__django-11138,gpt,unresolved,gpt_valid_unresolved,valid,True,False,1-4 hours,True
+annotation-085,django__django-11790,gpt,unresolved,gpt_valid_unresolved,valid,True,False,15 min - 1 hour,False
+annotation-088,matplotlib__matplotlib-25775,claude,resolved,complex_fill,valid,False,False,15 min - 1 hour,True
+annotation-089,django__django-15554,claude,resolved,complex_fill,valid,False,False,15 min - 1 hour,True
+annotation-090,django__django-11885,claude,resolved,complex_fill,valid,False,False,1-4 hours,True
+annotation-092,django__django-12273,claude,resolved,complex_fill,valid,False,False,15 min - 1 hour,False
+annotation-098,django__django-11087,claude,resolved,complex_fill,valid,False,True,15 min - 1 hour,False
+annotation-099,django__django-13821,claude,resolved,complex_fill,valid,False,True,<15 min fix,False
+annotation-100,django__django-14725,claude,resolved,complex_fill,valid,False,False,15 min - 1 hour,False

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-07T14:17:53.689337+00:00",
+  "aligned_instance_count": 35,
+  "episode_count": 84,
+  "alignment_status": {
+    "missing_official_parent": 11,
+    "aligned": 32,
+    "no_worker_revision": 19,
+    "no_new_checkpoint": 21,
+    "state_change_without_replay_checkpoint": 1
+  },
+  "replay_labels": {
+    "Unverified Revision": 12,
+    "Outcome-neutral Revision": 18,
+    "Not Applicable": 19,
+    "No-op Revision": 21,
+    "Productive Revision": 9,
+    "Partial Improvement": 4,
+    "Partial Regression": 1
+  },
+  "comparable_episode_count": 32,
+  "automatic_to_replay": {
+    "Protocol-driven Revision -> Outcome-neutral Revision": 18,
+    "Protocol-driven Revision -> Productive Revision": 9,
+    "Protocol-driven Revision -> Partial Improvement": 4,
+    "Protocol-driven Revision -> Partial Regression": 1
+  },
+  "unstable_source_episode_count": 3
+}

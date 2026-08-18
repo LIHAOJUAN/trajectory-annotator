@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SWE-bench 轨迹标注台</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">RECURSIVE DRIFT LAB</div>
+      <h1>SWE-bench 轨迹标注台</h1>
+    </div>
+    <div class="top-actions">
+      <label class="annotator-box">标注员 <input id="globalAnnotator" placeholder="输入姓名/编号"></label>
+      <button id="exportBtn" class="btn secondary">导出 JSONL</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="dashboard" class="dashboard"></section>
+    <section class="workspace">
+      <aside class="sidebar">
+        <div class="filters">
+          <input id="search" placeholder="搜索 instance / repo / ID">
+          <div class="filter-grid">
+            <select id="modelFilter"><option value="">全部模型</option><option>claude</option><option>gpt</option></select>
+            <select id="outcomeFilter"><option value="">全部结果</option><option value="resolved">resolved</option><option value="unresolved">unresolved</option></select>
+            <select id="statusFilter"><option value="">全部状态</option><option value="pending">待标注</option><option value="annotated">已标注</option></select>
+            <select id="replayFilter"><option value="">Replay 任意</option><option value="yes">有 Replay</option><option value="no">无 Replay</option></select>
+          </div>
+        </div>
+        <div id="listMeta" class="list-meta"></div>
+        <div id="itemList" class="item-list"></div>
+      </aside>
+
+      <section class="detail-shell">
+        <div id="emptyState" class="empty-state">
+          <div class="empty-icon">↗</div><h2>选择一条轨迹开始审阅</h2>
+          <p>左侧按优先级排列。自动分析是辅助证据，不会覆盖人工结论。</p>
+        </div>
+        <div id="detail" class="detail hidden">
+          <div id="detailHeader" class="detail-header"></div>
+          <nav class="tabs" id="tabs">
+            <button data-tab="overview" class="active">总览</button>
+            <button data-tab="trajectory">轨迹</button>
+            <button data-tab="replay">Checkpoint Replay</button>
+            <button data-tab="files">原始文件</button>
+            <button data-tab="annotation">人工标注</button>
+          </nav>
+          <div id="tabContent" class="tab-content"></div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <div id="toast" class="toast"></div>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

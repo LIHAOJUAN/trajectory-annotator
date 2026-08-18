@@ -1,0 +1,14 @@
+services:
+  annotator:
+    build: .
+    ports:
+      - "8765:8765"
+    environment:
+      ANNOTATOR_SAMPLE_FILE: assignments/A.jsonl
+      ANNOTATOR_REVIEW_STORE_PATH: /app/workspace/trajectory_label_reviews.jsonl
+      # SWE_TRAJECTORY_ROOT: /trajectories
+    volumes:
+      - ./workspace:/app/workspace
+      # Optional full trajectories (read-only):
+      # - /host/path/to/swebench_verified:/trajectories:ro
+    restart: unless-stopped

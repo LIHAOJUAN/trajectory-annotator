@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SWE-bench Trajectory Single-label Review",
+  "type": "object",
+  "required": ["annotation_id", "annotator", "model_label", "instance_id", "task_outcome", "trajectory_verdict"],
+  "properties": {
+    "annotation_id": {"type": "string"},
+    "annotator": {"type": "string", "minLength": 1},
+    "model_label": {"enum": ["claude", "gpt"]},
+    "instance_id": {"type": "string"},
+    "task_outcome": {"enum": ["resolved", "unresolved"]},
+    "trajectory_verdict": {
+      "enum": [
+        "Healthy Success", "Costly Success", "Recovered Success",
+        "False Accept", "False Reject", "Looping Failure",
+        "Destructive Drift Candidate", "Verification Failure",
+        "Protocol Failure", "Environment Failure",
+        "Non-addressable Failure", "Provenance Invalid", "Other", "Uncertain"
+      ]
+    },
+    "accepted_suggestion": {"type": "boolean"},
+    "machine_suggestion": {"type": ["object", "null"]},
+    "notes": {"type": "string"},
+    "updated_at": {"type": "string"}
+  }
+}

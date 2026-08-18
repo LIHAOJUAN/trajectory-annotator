@@ -1,0 +1,27 @@
+{
+  "canonical_runs": 1000,
+  "by_model": {
+    "claude": 500,
+    "gpt": 500
+  },
+  "resolved": {
+    "claude:resolved": 382,
+    "claude:unresolved": 118,
+    "gpt:resolved": 391,
+    "gpt:unresolved": 109
+  },
+  "integrity": {
+    "claude:valid": 500,
+    "gpt:valid": 432,
+    "gpt:suspect": 68
+  },
+  "outcome_source": {
+    "claude:canonical": 500,
+    "gpt:canonical": 483,
+    "gpt:retry": 12,
+    "gpt:isolated": 4,
+    "gpt:resource_recovery": 1
+  },
+  "evaluation_records": 1058,
+  "runs_with_evaluation_retry": 43
+}
